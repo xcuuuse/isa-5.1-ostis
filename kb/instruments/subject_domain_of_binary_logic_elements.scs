@@ -416,7 +416,7 @@ concept_basic_memory
 concept_set_dominant_memory
 <- sc_node_class;
 => nrel_main_idtf:
-	[устанивливаемая доминирующая память]
+	[устанавливаемая доминирующая память]
 	(* <- lang_ru;; *);
 	[set dominant memory]
 	(* <- lang_en;; *);
@@ -530,7 +530,7 @@ concept_time_delay_on
 => nrel_main_idtf:
 	[система задержки по времени, вкл.]
 	(* <- lang_ru;; *);
-	[time dealy, on]
+	[time delay, on]
 	(* <- lang_en;; *);
 	[система затримки за часом, вкл.]
 	(* <- lang_uk;; *);

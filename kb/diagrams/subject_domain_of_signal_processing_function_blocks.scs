@@ -107,7 +107,7 @@ concept_summation_symbol
 	(* <- lang_ru;; *);
 	[functional summation symbol]
 	(* <- lang_en;; *);
-	[функціональний підсумовування символ]
+	[функціональний символ підсумовування]
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
@@ -568,7 +568,7 @@ concept_division_symbol
 concept_root_extraction_symbol
 <- sc_node_class;
 => nrel_main_idtf:
-	[функциональный символ извлечение корня]
+	[функциональный символ извлечения корня]
 	(* <- lang_ru;; *);
 	[functional root extraction symbol]
 	(* <- lang_en;; *);
@@ -666,7 +666,7 @@ concept_time_function_symbol
 	(* <- lang_ru;; *);
 	[functional time function symbol]
 	(* <- lang_en;; *);
-	[функціональний час функція символ]
+	[функціональний символ функції часу]
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
@@ -915,7 +915,7 @@ concept_signal_transfer_symbol
 	(* <- lang_ru;; *);
 	[functional signal transfer symbol]
 	(* <- lang_en;; *);
-	[функціональний символ передачі сигналу]
+	[функціональний символ генератора аналогових сигналів]
 	(* <- lang_uk;; *);
 
 => nrel_idtf:

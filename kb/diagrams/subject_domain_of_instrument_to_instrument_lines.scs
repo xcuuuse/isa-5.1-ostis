@@ -3,7 +3,7 @@ subject_domain_of_instrument_to_instrument_lines
 => nrel_main_idtf:
 	[Предметная область инструмент-инструмент соединений]
 	(* <- lang_ru;; *);
-	[Subject domain of of instrument to instrument lines]
+	[Subject domain of instrument to instrument lines]
 	(* <- lang_en;; *);
 	[Предметна область з'єднань інструмент-інструмент]
 	(* <- lang_uk;; *);

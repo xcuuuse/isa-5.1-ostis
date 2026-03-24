@@ -109,7 +109,7 @@ concept_auxiliary_instrumentation
 concept_accessory_instrumentation
 <- sc_node_class;
 => nrel_main_idtf:
-    [дополнительнй прибор]
+    [дополнительный прибор]
 	(* <- lang_ru;; *);
 	[accessory instrumentation]
 	(* <- lang_en;; *);
