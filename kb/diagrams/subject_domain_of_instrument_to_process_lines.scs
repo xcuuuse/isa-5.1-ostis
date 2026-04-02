@@ -174,7 +174,7 @@ concept_heat_traced_generic_instrument_impulse_line
 concept_heat_traced_instrument
 <- sc_node_class;
 => nrel_main_idtf:
-	[тепловизионный прибор]
+	[прибор с тепловой трассировкой]
 	(* <- lang_ru;; *);
 	[heat \[cool\] traced instrument]
 	(* <- lang_en;; *);

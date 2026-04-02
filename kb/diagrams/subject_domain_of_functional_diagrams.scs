@@ -227,6 +227,14 @@ concept_manual_signal_processor
 	*);;
 
 concept_final_control_element
+<- sc_node_class;
+=> nrel_main_idtf:
+	[конечный элемент управления]
+	(* <- lang_ru;; *);
+	[final control element]
+	(* <- lang_en;; *);
+	[кінцевий елемент управління]
+	(* <- lang_uk;; *);
 => nrel_idtf:
 	"file://images/functional_diagramming/final_control_element.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:

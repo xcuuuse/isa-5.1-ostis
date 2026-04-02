@@ -558,7 +558,7 @@ concept_time_delay_off
 => nrel_main_idtf:
 	[система задержки по времени, выкл.]
 	(* <- lang_ru;; *);
-	[time dealy, off]
+	[time delay, off]
 	(* <- lang_en;; *);
 	[система затримки за часом, викл.]
 	(* <- lang_uk;; *);

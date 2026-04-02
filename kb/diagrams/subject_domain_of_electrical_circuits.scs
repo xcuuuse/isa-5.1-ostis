@@ -648,11 +648,11 @@ concept_normally_closed_relay_contact
 concept_normally_open_or_normally_closed_relay_contact
 <- sc_node_class;
 => nrel_main_idtf:
-	[нормально замкнутый релейный контакт]
+	[нормально замкнутый или нормально разомкнутый релейный контакт]
 	(* <- lang_ru;; *);
 	[normally open or normally closed relay contact]
 	(* <- lang_en;; *);
-	[нормально замкнутий контакт реле]
+	[нормально замкнутий аб нормально разомкнутий контакт реле]
 	(* <- lang_uk;; *);
 => nrel_idtf:
 	"file://images/electric/normally_closed_relay_contact.jpg" (* => nrel_format: format_jpg;; *);

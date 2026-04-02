@@ -202,7 +202,7 @@ concept_functional_diagram_binary_signal
 concept_functional_diagram_continuously_variable_signal
 <- sc_node_class;
 => nrel_main_idtf:
-	[функциональная схема бесступенчатого сигнала]
+	[функциональная схема непрерывно изменяющегося сигнала]
 	(* <- lang_ru;; *);
 	[functional diagram continuously variable signal]
 	(* <- lang_en;; *);

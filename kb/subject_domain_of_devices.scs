@@ -447,7 +447,7 @@ concept_transducer
 => nrel_main_idtf:
     [transducer]
     (* <- lang_en;; *);
-    [приёмник]
+    [преобразователь]
     (* <- lang_ru;; *);
     [примач]
     (* <- lang_uk;; *);

@@ -432,7 +432,7 @@ concept_high_limit_symbol
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanations/functional/middle_signal_select_ru.html"
+				"file://content_html/explanations/functional/middle_signal_select_ru.html" 
 			(* <- lang_ru;; => nrel_format: format_html;; *);
 				"file://content_html/explanations/functional/middle_signal_select_en.html"
 			(* <- lang_en;; => nrel_format: format_html;; *);
