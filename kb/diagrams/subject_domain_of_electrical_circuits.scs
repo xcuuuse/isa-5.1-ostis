@@ -1041,6 +1041,12 @@ concept_solenoid_coil
 	*);;
 	
 concept_pilot_light
+<- sc_node_class;
+=> nrel_main_idtf:
+	[контрольная лампа]
+	(* <- lang_ru;; *);
+	[pilot_light]
+	(* <- lang_en;; *);
 => nrel_idtf:
 	"file://images/electric/pilot_light.jpg" (* => nrel_format: format_jpg;; *);
 <- rrel_key_sc_element:

@@ -142,7 +142,7 @@ concept_multiplication_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/summation.jpg" (* => nrel_format: format_jpg;; *);
+	"file://images/functional/multiplication.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -173,7 +173,7 @@ concept_difference_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/summation.jpg" (* => nrel_format: format_jpg;; *);
+	"file://images/functional/difference.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -204,7 +204,7 @@ concept_average_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/summation.jpg" (* => nrel_format: format_jpg;; *);
+	"file://images/functional/average.jpg" (* => nrel_format: format_jpg;; *);
 
 <- rrel_key_sc_element:
 
@@ -432,11 +432,11 @@ concept_high_limit_symbol
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanations/functional/middle_signal_select_ru.html" 
+				"file://content_html/explanations/functional/high_limit_ru.html" 
 			(* <- lang_ru;; => nrel_format: format_html;; *);
-				"file://content_html/explanations/functional/middle_signal_select_en.html"
+				"file://content_html/explanations/functional/high_limit_en.html"
 			(* <- lang_en;; => nrel_format: format_html;; *);
-				"file://content_html/explanations/functional/middle_signal_select_uk.html"
+				"file://content_html/explanations/functional/high_limit_uk.html"
 			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;

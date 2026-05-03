@@ -23,7 +23,7 @@ section_subject_domain_of_isa5_1
 
 => nrel_summary:
 	[Целью проекта является создание распределенным сообществом разработчиков полной, 
-	структурированной и объективной базы знаний по стандарту рецептурного производства 
+	структурированной и объективной базы знаний по стандарту символов и условных обозначений для контрольно-измерительных приборов и средств автоматизации
 	ISA5.1 на основе открытой технологии OSTIS (Open Semantic Technology for Intelligent 
 	Systems). Этот стандарт устанавливает единообразные средства изображения и идентификации 
 	инструментов или устройств и их присущие функции, а также функции прикладного программного 
@@ -32,7 +32,7 @@ section_subject_domain_of_isa5_1
 	обозначений.]
 	(* <- lang_ru;; *);
 	[The aim of the project is to create a complete, structured and objective knowledge base 
-	for the ISA5.1 batch manufacturing standard by the distributed community of developers, 
+	for the ISA5.1 batch uniform means of designating instruments and instrumentation systems standard by the distributed community of developers, 
 	based on the OSTIS technology (Open Semantic Technology for Intelligent Systems). This 
 	standard establishes uniform means of depicting identification or devices and their 
 	inherent functions, as well as the functions of application software used for measuring 
@@ -40,7 +40,7 @@ section_subject_domain_of_isa5_1
 	identification and graphic designations.]
 	(* <- lang_en;; *);
 	[Метою проекту є створення розподіленою спільнотою розробників повної, структурованої і 
-	об'єктивної бази знань за стандартом рецептурного виробництва ISA5.1 на основі відкритої 
+	об'єктивної бази знань за стандартом за стандартом символів та умовних позначень для контрольно-вимірювальних приладів та засобів автоматизації ISA5.1 на основі відкритої 
 	технології OSTIS (Open Semantic Technology for Intelligent Systems). Цей стандарт 
 	встановлює єдині засоби зображення і ідентифікації інструментів або пристроїв і їх 
 	властиві функції, а також функції прикладного програмного забезпечення, що 

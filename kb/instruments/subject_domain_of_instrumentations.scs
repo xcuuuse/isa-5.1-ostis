@@ -123,11 +123,11 @@ concept_accessory_instrumentation
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanations/instrumentation/concept_auxiliary_instrumentation_ru.html"
+				"file://content_html/explanations/instrumentation/concept_accessory_instrumentation_ru.html"
 			(* <- lang_ru;; => nrel_format: format_html;; *);
-				"file://content_html/explanations/instrumentation/concept_auxiliary_instrumentation_en.html"
+				"file://content_html/explanations/instrumentation/concept_accessory_instrumentation_en.html"
 			(* <- lang_en;; => nrel_format: format_html;; *);
-				"file://content_html/explanations/instrumentation/concept_auxiliary_instrumentation_uk.html"
+				"file://content_html/explanations/instrumentation/concept_accessory_instrumentation_uk.html"
 			(* <- lang_uk;; => nrel_format: format_html;; *);;
 		*);;
 	*);;
