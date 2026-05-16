@@ -134,7 +134,12 @@ concept_instrument
 concept_discrete_instrument;
 concept_field_instrument;
 concept_local_instrument;
-concept_panel_mounted_instrument;;
+concept_panel_mounted_instrument;
+concept_panel;
+concept_behind_the_panel;
+concept_local_panel;
+concept_test_point;
+concept_board;;
 
 concept_instrumentation
 <- sc_node_class;

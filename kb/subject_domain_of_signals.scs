@@ -22,6 +22,44 @@ concept_functional_diagram_binary_signal;
 concept_functional_diagram_continuously_variable_signal;
 concept_hydraulic_signal;;
 
+concept_signal
+<- sc_node_class;
+=> nrel_main_idtf:
+    [signal]
+    (* <- lang_en;; *);
+    [сигнал]
+    (* <- lang_ru;; *);
+    [сигнал]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/signal_en.html"
+                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    "file://content_html/explanations/signal_ru.html"
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    "file://content_html/explanations/signal_uk.html"
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+            *);;
+    *);
+=> nrel_inclusion:
+concept_analog_signal;
+concept_digital_signal;
+concept_binary_signal;
+concept_discrete_signal;
+concept_undefined_signal;
+concept_pneumatic_signal;
+concept_functional_diagram_binary_signal;
+concept_functional_diagram_continuously_variable_signal;
+concept_hydraulic_signal;;
+
+
+
 concept_analog_signal
 <- sc_node_class;
 => nrel_main_idtf:
@@ -127,3 +165,55 @@ concept_discrete_signal
     *);
 => nrel_inclusion:
 concept_binary_signal;;
+
+concept_functional_diagram_binary_signal
+<- sc_node_class;
+=> nrel_main_idtf:
+    [functional diagram binary signal]
+    (* <- lang_en;; *);
+    [двоичный сигнал функциональной схемы]
+    (* <- lang_ru;; *);
+    [двійковий сигнал функціональної схеми]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/functional_diagram_binary_signal_en.html"
+                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    "file://content_html/explanations/functional_diagram_binary_signal_ru.html"
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    "file://content_html/explanations/functional_diagram_binary_signal_uk.html"
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+            *);;
+    *);;
+
+concept_functional_diagram_continuously_variable_signal
+<- sc_node_class;
+=> nrel_main_idtf:
+    [functional diagram continuously variable signal]
+    (* <- lang_en;; *);
+    [непрерывно изменяющийся сигнал функциональной схемы]
+    (* <- lang_ru;; *);
+    [неперервно змінний сигнал функціональної схеми]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/functional_diagram_continuously_variable_signal_en.html"
+                    (* <- lang_en;; => nrel_format: format_html;; *);
+                    "file://content_html/explanations/functional_diagram_continuously_variable_signal_ru.html"
+                    (* <- lang_ru;; => nrel_format: format_html;; *);
+                    "file://content_html/explanations/functional_diagram_continuously_variable_signal_uk.html"
+                    (* <- lang_uk;; => nrel_format: format_html;; *);;
+            *);;
+    *);;

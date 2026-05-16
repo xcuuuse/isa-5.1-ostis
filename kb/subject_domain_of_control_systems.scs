@@ -26,6 +26,17 @@ concept_supervisory_setpoint_control_system;
 concept_control_station;
 concept_setpoint;;
 
+concept_control_system
+<- sc_node_class;
+=> nrel_main_idtf:
+    [control system]
+    (* <- lang_en;; *);
+    [система управления]
+    (* <- lang_ru;; *);
+    [система управління]
+    (* <- lang_uk;; *);;
+
+
 concept_auto_manual_station
 <- sc_node_class;
 => nrel_main_idtf:

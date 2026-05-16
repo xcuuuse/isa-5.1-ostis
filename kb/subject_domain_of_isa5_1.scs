@@ -66,7 +66,7 @@ concept_application_software
 => nrel_main_idtf:
     [application software]
     (* <- lang_en;; *);
-    [программное обеспечение]
+    [прикладное программное обеспечение]
     (* <- lang_ru;; *);
     [програмне забезпечення]
     (* <- lang_uk;; *);

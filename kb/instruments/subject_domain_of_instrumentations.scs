@@ -25,6 +25,32 @@ concept_instrumentation => nrel_subdividing:
     concept_accessory_instrumentation
 };;
 
+concept_instrumentation
+<- sc_node_class;
+=> nrel_main_idtf:
+    [прибор]
+    (* <- lang_ru;; *);
+    [instrumentation]
+    (* <- lang_en;; *);
+    [приладобудування]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+                "file://content_html/explanations/instrumentation/concept_instrumentation_ru.html"
+            (* <- lang_ru;; => nrel_format: format_html;; *);
+                "file://content_html/explanations/instrumentation/concept_instrumentation_en.html"
+            (* <- lang_en;; => nrel_format: format_html;; *);
+                "file://content_html/explanations/instrumentation/concept_instrumentation_uk.html"
+            (* <- lang_uk;; => nrel_format: format_html;; *);;
+        *);;
+    *);;
+
 concept_primary_instrumentation
 <- sc_node_class;
 => nrel_main_idtf:
